@@ -1,0 +1,17 @@
+name: "MIIO HTTP Relay"
+description: "Provides a simple relay REST API to control MIIO-enabled devices"
+version: "1.0.0"
+slug: "miio_http_relay"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+host_network: true
+options:
+  port: 44444
+schema:
+  port: int
