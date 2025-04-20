@@ -6,7 +6,7 @@ RUN \
   apk add --no-cache \
     icu-data-full=74.2-r0 \
     nodejs=22.13.1-r0 \
-    npm=10.9.1-r0 \
+    npm=10.9.1-r0
 
 # Copy startup script
 COPY run.sh /
