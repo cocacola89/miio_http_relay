@@ -1,3 +1,4 @@
+---
 name: "MIIO HTTP Relay"
 description: "Provides a simple relay REST API to control MIIO-enabled devices"
 version: "1.0.0"
