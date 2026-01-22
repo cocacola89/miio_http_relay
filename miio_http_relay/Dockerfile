@@ -4,9 +4,8 @@ FROM $BUILD_FROM
 # Install nodejs 
 RUN \
   apk add --no-cache \
-    icu-data-full=76.1-r1 \
-    nodejs=24.13.0-r1 \
-    npm=11.6.3-r0
+    nodejs \
+    npm
 
 # Copy startup script
 COPY run.sh /
